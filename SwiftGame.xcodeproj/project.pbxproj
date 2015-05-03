@@ -11,7 +11,6 @@
 		80D6767D1AF6BF5600B3BB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6767C1AF6BF5600B3BB25 /* ViewController.swift */; };
 		80D676801AF6BF5600B3BB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D6767E1AF6BF5600B3BB25 /* Main.storyboard */; };
 		80D676821AF6BF5600B3BB25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D676811AF6BF5600B3BB25 /* Images.xcassets */; };
-		80D676851AF6BF5600B3BB25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D676831AF6BF5600B3BB25 /* LaunchScreen.xib */; };
 		80D676911AF6BF5600B3BB25 /* SwiftGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D676901AF6BF5600B3BB25 /* SwiftGameTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		80D6767C1AF6BF5600B3BB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80D6767F1AF6BF5600B3BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D676811AF6BF5600B3BB25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		80D676841AF6BF5600B3BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		80D6768A1AF6BF5600B3BB25 /* SwiftGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D6768F1AF6BF5600B3BB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D676901AF6BF5600B3BB25 /* SwiftGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				80D6767C1AF6BF5600B3BB25 /* ViewController.swift */,
 				80D6767E1AF6BF5600B3BB25 /* Main.storyboard */,
 				80D676811AF6BF5600B3BB25 /* Images.xcassets */,
-				80D676831AF6BF5600B3BB25 /* LaunchScreen.xib */,
 				80D676781AF6BF5600B3BB25 /* Supporting Files */,
 			);
 			path = SwiftGame;
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D676801AF6BF5600B3BB25 /* Main.storyboard in Resources */,
-				80D676851AF6BF5600B3BB25 /* LaunchScreen.xib in Resources */,
 				80D676821AF6BF5600B3BB25 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				80D6767F1AF6BF5600B3BB25 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80D676831AF6BF5600B3BB25 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80D676841AF6BF5600B3BB25 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
