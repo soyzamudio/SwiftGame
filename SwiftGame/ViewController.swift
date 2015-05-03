@@ -85,6 +85,8 @@ class ViewController: UIViewController {
 	func clickEvent(sender: AnyObject) {
 		if (self.total > 0) {
 			var button:UIButton = sender as! UIButton
+			button.enabled = false
+			button.backgroundColor = UIColor.blackColor()
 			self.selectedNumbers.insertObject(button.tag, atIndex: 0)
 			var sum = 0
 			for number in self.selectedNumbers {
@@ -112,6 +114,11 @@ class ViewController: UIViewController {
 	func reset() {
 		self.total = 0
 		self.label.text = "0"
+		for number in selectedNumbers {
+			var button:UIButton = self.view.viewWithTag(Int(number as! NSNumber)) as! UIButton
+			button.enabled = true
+			button.backgroundColor = UIColor.redColor()
+		}
 		self.getRandomButton.setTitle("Get Random Number", forState: .Normal)
 		self.selectedNumbers.removeAllObjects()
 	}
